@@ -7,7 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class test {
 
     @RequestMapping("/quick")
-    public String get(){
+    public String get() {
+        int a =100;
+        a++;
+        a++;
+        a--;
         return "hellooaaaaaaa";
     }
 }
